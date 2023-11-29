@@ -1,11 +1,11 @@
 One Makefile, multiple targets:
 ```
-make app_build
-make app_test
+make -f Makefile app_build
+make -f Makefile app_test
 ```
 
 Generate bdf:
 ```
-make app_build
-cpptesttrace --cpptesttraceOutputFile=test.bdf make app_test
+make -f Makefile app_build
+cpptesttrace --cpptesttraceOutputFile=test.bdf make -f Makefile app_test
 ```
