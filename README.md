@@ -1,3 +1,5 @@
+The essence, is that there already exists a huge codebase, so the Parasoft `cpptesttrace` tool simply smoothly inserts into the build flow. There is much freedom and flexibility if you are starting from a fresh codebase.
+
 One Makefile, multiple targets:
 ```
 make -f Makefile app_build
